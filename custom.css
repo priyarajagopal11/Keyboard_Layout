@@ -1,0 +1,233 @@
+
+
+.cable{
+  /*height:100px; 
+  width:10px; */
+  text-align: center;
+}
+.keyboard{ 
+  width:1000px; height: 270px;
+  background-color: gray;
+  margin: 0px auto;
+  border-radius: 9px;
+  padding: 30px;
+}
+.lights span{
+ /*margin:0px 20px 0px 0px;*/
+ padding:0; 
+}
+.lights span:after{
+  content:"";
+  width:12px; height:12px;
+  margin-right:-9px;
+  background-color:black;
+  position:absolute;
+  border-radius: 150px;
+}
+.dot
+{ 
+width:10px;
+height: 5px;
+padding:0;
+float:left;margin-left: 40px;
+/*margin-bottom: 5px*/
+}
+.dot-1
+{ 
+  height:40px;
+width:10px;
+padding:0;
+float:right;margin-right:45px;
+margin-bottom: ;
+}
+.key{
+  width: 40px; height:40px;
+  display:block;
+  /*background-color:#55b855;*/
+  text-align: left;
+  padding-left: 8px;
+  line-height: 29px;
+  border-radius:2px;
+  float:left; margin-left: 2px;
+  margin-bottom:2px;
+  cursor: pointer;
+  transition: box-shadow 0.7s ease;
+}
+.key-1{
+  display:block;
+  background-color:gray;
+  text-align: left;
+  padding-left: 8px;
+  line-height: 29px;
+  border-radius:2px;
+  float:left; margin-left: 2px;
+  margin-bottom:2px;
+  cursor: pointer;
+  transition: box-shadow 0.7s ease;
+}
+.section-a{
+  width:650px; 
+  height:260px; 
+  float:left;
+}
+.section-b{
+  width:150px; 
+  height:260px; 
+  float:left;
+}
+.section-c{
+  width:200px; 
+  height:50px; 
+  float:left; 
+}
+.section-c-1{
+  width:150px; 
+  height:208px; 
+  float:left; 
+  background-color: #94eb52;
+}
+.num-1
+{
+float:left;
+}
+
+.section-c-2{
+  width:50px; 
+  /*height:260px;*/
+  float:left; 
+}
+.function{
+  font-size: 12px; 
+  width:30px; 
+  height:30px; 
+  margin-bottom:15px;
+}
+.function-key{
+  background-color: #6ae46a;
+}
+.key-num{
+  background-color: #eb8585;
+}
+.back-space-color{
+  background-color: #eb5252;
+}
+.tab-caps-enter-color{
+  background-color: #52ebeb;
+}
+.letter-color{
+    background-color: #ec914b;
+}
+.shift-ctr-alt-color{
+  background-color: #eb52eb;
+}
+.arr
+{
+  background-color: #9e529e
+}
+.cir
+{
+  background-color: #ff0000
+}
+.small{
+  font-size:10px; 
+  line-height:13px; 
+  text-align: center; 
+  padding:0 5px; 
+  padding-top:2px; 
+  height:28px;
+}
+.space1{
+  margin-right: 43px;
+}
+.space2{
+  margin-right: 25px;
+}
+.dual {
+  font-size: 14px; 
+  line-height: 20px; 
+  width:30px; 
+}
+.dual-1{
+   font-size: 14px; 
+  line-height: 20px; 
+}
+.backspace {
+  width:84px; 
+  font-size: 12px;
+}
+.tab {
+  width: 50px; 
+  line-height: 40px; 
+  font-size:13px;
+}
+.letter{
+  width:30px;
+}
+.slash{
+  width:64px;
+}
+.caps{
+  width:70px; 
+  font-size:12px; 
+  line-height:18px;
+}
+.enter{
+  width:92px; 
+  line-height:40px; 
+  text-align: center; 
+  padding-left:0;
+}
+.enter-1{
+  width:98px; 
+  line-height:40px; 
+  text-align: center; 
+  padding-left:0;
+}
+.enter-2{
+  width:40px; 
+  line-height:82px; 
+  text-align: center; 
+  padding-right:0;
+}
+.shift.left{
+  width: 90px;
+  line-height: 40px; 
+  font-size:13px;
+}
+.shift.right{
+  width: 104px;
+  line-height: 40px; 
+  font-size:13px;
+}
+.ctrl{
+  width: 50px; 
+  line-height: 40px; 
+  font-size:13px;
+}
+.space{
+  width:234px;
+}
+.arrows{
+  position:relative; 
+  top:42px;
+}
+.sec-func .key{
+  width: 32px; 
+  font-size:10px; 
+  text-align:left; 
+  line-height:40px; 
+  float:left;
+}
+.sec-func div.dual{
+  line-height:20px;
+}
+.arrows .key{
+  text-align: center; 
+  padding-left: 7px; 
+  margin-left:2px;
+  /*font-size:20px;*/ 
+}
+.esc
+{
+  background-color: #ebeb52 ;
+}
